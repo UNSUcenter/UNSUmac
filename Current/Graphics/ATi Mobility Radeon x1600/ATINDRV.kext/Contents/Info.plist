@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ATINDRV</string>
+	<key>CFBundleGetInfoString</key>
+	<string>ATINDRV 1.4.24.6 (1.0f198)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.kext.ATINDRV</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>com.apple.driver.ATINDRV</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.4.24</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4.2.4</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>FirstPersonality</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.kext.ATINDRV</string>
+			<key>IOClass</key>
+			<string>ATICLASS</string>
+			<key>IOMatchCategory</key>
+			<string>IOFramebuffer</string>
+			<key>IONameMatch</key>
+			<string>ATY,Wormy</string>
+			<key>IOProbeScore</key>
+			<integer>50000</integer>
+			<key>IOProviderClass</key>
+			<string>IONDRVDevice</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOGraphicsFamily</key>
+		<string>1.3</string>
+		<key>com.apple.iokit.IONDRVSupport</key>
+		<string>1.3</string>
+		<key>com.apple.kernel.iokit</key>
+		<string>1.0.0b1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
+</dict>
+</plist>
