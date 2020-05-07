@@ -8,6 +8,6 @@ There are currently 3 types of these packages you can get:
 
 2. Working - This package has only the working files.
 
-3. Tailored - This package has only the working files for a specific device.
+3. Tailored - This package has only the working files for a specific device (E.G. MacBook4,1).
 
 Occasionally there will be special releases that have specific items in them. This project is still at an early stage and will still have things added to it. We're working on creating an easy GUI solution called "UNSUhub." 
